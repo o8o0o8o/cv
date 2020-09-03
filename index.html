@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <title>JS Developer</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <h4>Siarhei Labuts</h4>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">home</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#portfolio">portfolio</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+    <main>
+      <div
+        id="home"
+        class="section section--background-color-blue section--padding"
+      >
+        <div class="space-between">
+          <div class="section__item--spacer">
+            <div class="section__item--header">Contact me</div>
+            <div class="section__item--not-important-text">
+              Let's get in touch
+            </div>
+          </div>
+          <div class="section__item--space-around">
+            <form method="get" action="cv.pdf">
+              <button class="button">
+                <input type="checkbox" id="selectme" />
+                <span>
+                  <label for="selectme">Download CV</label>
+                </span>
+              </button>
+            </form>
+          </div>
+          <div class="section__item--space-around">
+            <div class="btn section-item--margin">
+              <div class="inner-wrapper">
+                <a href="tel:+375292838900"
+                  ><i class="icon-mobile section-item--big-text"></i
+                ></a>
+              </div>
+            </div>
+            <div class="btn section-item--margin">
+              <div class="inner-wrapper">
+                <a href="mailto:sergeylabut@gmail.com"
+                  ><i class="icon-mail2 section-item--big-text"></i
+                ></a>
+              </div>
+            </div>
+            <div class="btn section-item--margin">
+              <div class="inner-wrapper">
+                <a href="skype:o8o8o0o8o8o?chat"
+                  ><i class="icon-skype section-item--big-text"></i
+                ></a>
+              </div>
+            </div>
+            <div class="btn section-item--margin">
+              <div class="inner-wrapper">
+                <a href="https://github.com/o8o0o8o"
+                  ><i class="icon-github section-item--big-text"></i
+                ></a>
+              </div>
+            </div>
+            <div class="btn section-item--margin">
+              <div class="inner-wrapper">
+                <a href="https://www.linkedin.com/in/siarhei-labuts-aa3139125/"
+                  ><i class="icon-linkedin section-item--big-text"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        id="about"
+        class="section section--padding section--background-color-pink"
+      >
+        <div class="space-between">
+          <div class="section__item--photo-block">
+            <img src="assets/images/MiniMe.jpg" alt="" class="photo" />
+          </div>
+          <div class="section__item--cv-size">
+            Goal-oriented JavaScript Developer with half a year experience. Is
+            able to work in team or independently. Has good personal skills.
+          </div>
+          <div class="section__item--cv-size">
+            <h4>Education:</h4>
+            Belarusian State University Department of physics
+          </div>
+          <div class="section__item--cv-size">
+            <h4>The Rolling Scopes School</h4>
+            <h6>Front-End course</h6>
+            <a href="https://app.rs.school/certificate/mx1dvno6"
+              ><h6>certificate</h6></a
+            >
+            Tasks execution, reviewing students work, learning new material,
+            team work.
+          </div>
+          <div class="section__item--cv-size">
+            <h4>LLC “SPECTRTRADING”</h4>
+            <h6>Sales, service, medical equipment</h6>
+            <h5>November 2014 – Now</h5>
+            <h5>Senior engineer</h5>
+            Installation, planned maintenance, diagnostic, repair, customer
+            service and support. Document flow: contracts, reports, tenders,
+            price calculation. Business travels across country and beyond for
+            trainings.
+          </div>
+          <div class="section__item--cv-size">
+            <h4>JSC “INTEGRAL”</h4>
+            <h6>September 2013 – November 2014</h6>
+            <h5>Electronics</h5>
+            <h5>Engineer</h5>
+            Analysis of defective products, product certification, writing
+            macros and building programs for measuring equipment.
+          </div>
+        </div>
+      </div>
+      <div id="portfolio" class="section">
+        <div>
+          <!-- Slider main container -->
+          <div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="section section--padding section--column">
+                  <div>
+                    <img src="assets/images/Black-jack.jpg" class="img" />
+                  </div>
+                  <div>
+                    <ul class="list">
+                      <li>
+                        site
+                        <a href="https://o8o0o8o-card-game.netlify.app/"
+                          >Black-jack</a
+                        >
+                      </li>
+                      <li>
+                        git
+                        <a href="https://github.com/o8o0o8o/card-game">repo</a>
+                      </li>
+                      <li>last commit date: 21 Aug 2020</li>
+                      <li>Simple black jack game.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="section section--padding section--column">
+                  <div>
+                    <img src="assets/images/Virtual-keyboard.jpg" class="img" />
+                  </div>
+                  <div>
+                    <ul class="list">
+                      <li>
+                        site
+                        <a href="https://o8o0o8o.github.io/virtual-keyboard/"
+                          >Virtual-keyboard</a
+                        >
+                      </li>
+                      <li>
+                        git
+                        <a href="https://github.com/o8o0o8o/virtual-keyboard"
+                          >repo</a
+                        >
+                      </li>
+                      <li>last commit date: 3 May 2020</li>
+                      <li>
+                        Two language virtual keyboard. Can accept keyboard
+                        inputs and screen input.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="section section--padding section--column">
+                  <div>
+                    <img src="assets/images/English-for-kids.jpg" class="img" />
+                  </div>
+                  <div>
+                    <ul class="list">
+                      <li>
+                        site
+                        <a href="https://o8o0o8o.github.io/english-for-kids//"
+                          >English-for-kids</a
+                        >
+                      </li>
+                      <li>
+                        git
+                        <a href="https://github.com/o8o0o8o/english-for-kids"
+                          >repo</a
+                        >
+                      </li>
+                      <li>last commit date: 19 Apr 2020</li>
+                      <li>
+                        SPA for kids to learn english. There are two mode: train
+                        and play. In train mode you can see prompts. In play
+                        mode you will be hearing words and all you have to do is
+                        to choose the right picture. Play sequence is ten words.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="section section--padding section--column">
+                  <div>
+                    <img src="assets/images/Gem-puzzle.jpg" class="img" />
+                  </div>
+                  <div>
+                    <ul class="list">
+                      <li>
+                        site
+                        <a href="https://o8o0o8o.github.io/gem-puzzle/"
+                          >Gem-puzzle</a
+                        >
+                      </li>
+                      <li>
+                        git
+                        <a href="https://github.com/o8o0o8o/gem-puzzle">repo</a>
+                      </li>
+                      <li>last commit date: 7 Apr 2020</li>
+                      <li>
+                        <a href="https://en.wikipedia.org/wiki/15_puzzle"
+                          >description</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="section section--padding section--column">
+                  <div>
+                    <img src="assets/images/English-puzzle.jpg" class="img" />
+                  </div>
+                  <div>
+                    <ul class="list">
+                      <li>
+                        site
+                        <a href="https://o8o0o8o-english-puzzle.netlify.app/"
+                          >English-puzzle</a
+                        >
+                      </li>
+                      <li>last commit date: 14 Jun 2020</li>
+                      <li>
+                        SPA for english learners. You can choose from different
+                        difficulty and words set. You can use four prompts:
+                        puzzle image, translation of the sentence, audio prompt
+                        in english, audio prompt in russian.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="section section--padding section--column">
+                  <div>
+                    <img src="assets/images/Fancy-weather.jpg" class="img" />
+                  </div>
+                  <div>
+                    <ul class="list">
+                      <li>
+                        site
+                        <a href="https://o8o0o8o-fancy-weather.netlify.app/"
+                          >Fancy-weather</a
+                        >
+                      </li>
+                      <li>last commit date: 30 May 2020</li>
+                      <li>
+                        SPA for weather report for any location from user input.
+                        Support voice input.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="section section--padding section--column">
+                  <div>
+                    <img src="assets/images/Speak-it.jpg" class="img" />
+                  </div>
+                  <div>
+                    <ul class="list">
+                      <li>
+                        site
+                        <a href="https://ecstatic-heyrovsky-41c5cd.netlify.app/"
+                          >Speak-it</a
+                        >
+                      </li>
+                      <li>last commit date: 24 Apr 2020</li>
+                      <li>
+                        SPA to learn English. You should say a word from ten on
+                        the screen. If it correct it will be marked. Six level
+                        difficulty.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
